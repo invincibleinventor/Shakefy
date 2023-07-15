@@ -89,7 +89,7 @@ Array.from(document.getElementsByClassName('songItem')).forEach((element, i)=>{
 })
 
 
-let masterPlay = document.getElementById('master_play');
+let masterPlay = document.getElementById('masterPlay');
 let wave = document.getElementsByClassName('wave')[0];
 
 masterPlay.addEventListener('click',()=>{
